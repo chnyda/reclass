@@ -1,0 +1,3 @@
+version=3
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/reclass-$1\.tar\.gz/ \
+  https://github.com/madduck/reclass/tags .*/reclass-(\d\S*)\.tar\.gz
